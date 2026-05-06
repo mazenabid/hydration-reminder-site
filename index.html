@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
@@ -7,8 +8,10 @@
             <h1>Welcome to <span style="color: #100C08"> Water Breaks </style></span> Tracker</h1>
             <p style="font-weight: lighter"> How many times did you drink water while staring at your screen? </p>
             <h2 id="count-el">0</h2>
-            <button id="increment-btn" onclick="increment()">ADD</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="btn-container">
+                <button id="increment-btn" onclick="increment()">ADD</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
             <p id="save-el">Previous entries: </p>
             <script src="index.js"></script>
         </div>
